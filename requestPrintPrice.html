@@ -1,0 +1,81 @@
+<html> 
+<head>
+<title>3DPrintBXL
+</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="javaScript.js" defer="defer"></script> 
+<script src="jsInitialise.js" ></script>  
+</head>
+<body>
+<h1> 3D Printing Service Brussels - Request Print <img src="images/logo1.png" alt="logo 3D Print BXL" height="100" align="right" /> </h1>   <hr />
+
+
+<p> <ul> 
+<li class="mainMenu"> <a href="index.html">Home</a> </li>
+<li class="mainMenu"> <a href="about.html">About 3DPrintBXL</a> </li>
+<li class="mainMenu"> <a href="technologies/index.html">Technologies</a> </li>
+<li class="mainMenu"> <a href="examples/index.html">Examples</a> </li>
+</ul></p>
+
+<h2> Print price request </h2>
+
+<p>An estimation of the printing cost based on an .stl file is free of charge. Please fill in all fields of this form and submit for requesting a quote.</p>
+
+<form action="http://www.example.com/uploadStl.php" method="post">
+ 
+<fieldset> <legend>  Personal info  </legend>
+
+<div> 
+     <label for="firstName" class="title"> First name: </label> 
+	<input type="text" id="firstName" name="firstName" size="15" maxlength="30"/> 
+</div>
+<div> 
+     <label for="lastName" class="title">  Last name:  </label> 
+	<input type="text" id="lastName" name="lastName" size="15" maxlength="30"/> 
+</div>
+<div> 
+     <label for="email" class="title">  Email:  </label> 
+	<input type="text" id="email" name="email" size="15" maxlength="30"/> 
+</div>
+<!-- <p> Phone number : 
+<input type="text" name="phoneNumber" size="13" maxlength="13"/> no spaces. </p> -->
+
+
+</fieldset> 
+<fieldset> <legend>Print job info  </legend>
+
+
+<p> The printing technique is Filament Deposition Printing. </p>
+
+<p> The printing material is:
+<select name="material">
+	<option value = "PLA-natural">PLA Natural</option>
+	<option value = "PLA-white">PLA White</option>
+	<option value = "PLA-satinBlack">PLA Satin Black</option>
+	<option value = "PLA-naturalFluorecent">PLA Natural Fluorecent</option>
+	<option value = "PLA-naturalFlexible">PLA Natural Flexible</option>
+	<option value = "ABS-White">ABS White</option>
+	<option value = "Customer">Provided by Customer</option>
+</select>
+</p>
+	
+<p> The infill density is : 
+<input type="text" name="infill" value="50" size="2" maxlength="2"/> 
+ this should be a number between 20% and 99% </p> 
+
+ <p> Ensure the .stl file uses "mm" for its length unit. It is good practise to check the .stl file on a slicer software before submiting<br />
+  Upload your .stl file,
+<input type="file" name="stlFile" /> </p> 
+
+
+<p> Add an optional message: <br />
+<textarea name="comments" cols="50" rows="4">  </textarea> </p> 
+
+<input type="submit", value="Submit price request" />
+
+</fieldset> 
+</form>
+
+
+</body>
+</html>

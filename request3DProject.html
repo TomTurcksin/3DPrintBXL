@@ -1,0 +1,66 @@
+<html> 
+<head>
+<title>3DPrintBXL
+</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="javaScript.js" defer="defer"></script> 
+<script src="jsInitialise.js" ></script>  
+</head>
+<body>
+<h1> 3D Printing Service Brussels - Request 3D design <img src="images/logo1.png" alt="logo 3D Print BXL" height="100" align="right" /> </h1>   <hr />
+
+
+<p> <ul> 
+<li class="mainMenu"> <a href="index.html">Home</a> </li>
+<li class="mainMenu"> <a href="about.html">About 3DPrintBXL</a> </li>
+<li class="mainMenu"> <a href="technologies/index.html">Technologies</a> </li>
+<li class="mainMenu"> <a href="examples/index.html">Examples</a> </li>
+</ul></p>
+
+<h2> Project request </h2>
+
+<p> Please fill in all fields of this form and submit for requesting a quote.</p>
+
+<form action="http://www.example.com/request3Dmodel.php" method="post">
+
+<fieldset> <legend>  Personal info  </legend>
+ 
+<div> 
+     <label for="firstName" class="title"> First name: </label> 
+	<input type="text" id="firstName" name="firstName" size="15" maxlength="30"/> 
+</div>
+<div> 
+     <label for="lastName" class="title">  Last name:  </label> 
+	<input type="text" id="lastName" name="lastName" size="15" maxlength="30"/> 
+</div>
+<div> 
+     <label for="email" class="title">  Email:  </label> 
+	<input type="text" id="email" name="email" size="15" maxlength="30"/> 
+</div>
+<!-- <p> Phone number : 
+<input type="text" name="phoneNumber" size="13" maxlength="13"/> no spaces. </p> -->
+
+
+</fieldset> 
+<fieldset> <legend>Project info  </legend>
+
+
+<p> Give a short description of the project. <br />
+ <textarea name="comments" cols="50" rows="4">  </textarea> </p> 
+
+
+<p> Make a zip file containing usefull information on the project. This includes sketsches with dimensions, descriptions, pictures, what environement will it be used in, forces, temperature etc. whatever seems ussefull. 
+ Measures should to be accurate to 1/10 of a milliemeter for the best results. <br /> Upload this zip file. <input type="file" name="stlFile" /> </p> 
+
+</p> After studying the submitted files, I will contact you to discuss this project and give a gross estimation of the job's total costs. Probably a webmeeting or real life meeting might be necesary 
+for instance to take measures or to understand the full extend of the project. Much of it depends on how complete the provided zip file is. Before any design takes place, an estimation of the total costs will be submitted.</p>
+
+ 
+<input type="submit", value="Submit Design Request" />
+</fieldset> 
+
+</form>
+
+
+</body>
+</html>
