@@ -20,11 +20,11 @@
 	"flexPLA"=>"Flexible PLA: This natural collerd PLA is mixed with elastomeres giving it a rubber like feeling", 
 	"fluoGreenPLA"=>"Fluorecent PLA: This natural collerd PLA is mixed with fluorecent pigments that produces a green afterglow for about a minute",
 	"whiteABS"=>"Collored ABS: White collor", "clientMaterial"=>"Client material: a $clientMaterialSwitch [€] fixed cost is added for using the client material spool" );	 */	
-	const materialDescriptions  ={"natPLA":"Natural PLA: collor is white and a little bit opaque", "whitePLA":"Collored PLA: White collor", 
-	"blackPLA":"Collored PLA: Black Satin (glassy straines give it a shiny look) ",
-	"flexPLA":"Flexible PLA: This natural collerd PLA is mixed with elastomeres giving it a rubber like feeling", 
-	"fluoGreenPLA":"Fluorecent PLA: This natural collerd PLA is mixed with fluorecent pigments that produces a green afterglow for about a minute",
-	"whiteABS":"Collored ABS: White collor", "clientMaterial":"Client material: a $clientMaterialSwitch [€] fixed cost is added for using the client material spool" };
+	const materialDescriptions  ={"natPLA":"Natural PLA: it is white and a little bit opaque", "whitePLA":"Tinted PLA: White colour", 
+	"blackPLA":"Tinted PLA: Black Satin (glassy straines give it a shiny look) ",
+	"flexPLA":"Flexible PLA: This natural tinted PLA is mixed with elastomers giving it a rubber-like feeling", 
+	"fluoGreenPLA":"Fluorescent PLA: This natural tinted PLA is mixed with fluorescent pigments that produce a green afterglow for about a minute",
+	"whiteABS":"Tinted ABS: White", "clientMaterial":"If you provide your own material, there is of course no cost for the material, however a fixed cost is added to use your spool" };
 	
 	
 /*  php	loop
